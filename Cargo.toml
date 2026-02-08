@@ -1,0 +1,30 @@
+[package]
+name = "finforge"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "finforge_app"
+path = "src/main.rs"
+
+[[bin]]
+name = "finforge_app_test"
+path = "src/bin/finforge_app_test.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = { version = "0.21", features = ["rustls-tls-native-roots"] }
+serde_json = "1"
+prost = "0.12"
+async-trait = "0.1"
+chrono = "0.4"
+fern = { version = "0.6", features = ["colored"] }
+log = "0.4"
+url = "2" # Required by tokio-tungstenite
+futures-util = "0.3"
+base64 = "0.21"
+protobuf = "2"
+serde = { version = "1", features = ["derive"] }
+
+[build-dependencies]
+prost-build = "0.12"

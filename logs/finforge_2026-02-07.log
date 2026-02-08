@@ -1,0 +1,128 @@
+[2026-02-07 01:11:21][finforge::logging][INFO] Logging initialized. Log file: logs\finforge_2026-02-07.log
+[2026-02-07 01:11:21][finforge_app][INFO] FinForge application starting...
+[2026-02-07 01:11:21][finforge::dispatcher][INFO] Client 0 registered. Total clients: 1
+[2026-02-07 01:11:21][finforge::memory_controller][INFO] MemoryController started.
+[2026-02-07 01:11:21][finforge::ingestor][INFO] UpstreamIngestor started.
+[2026-02-07 01:11:21][finforge_app][INFO] Registered client with ID: 0
+[2026-02-07 01:11:21][finforge::memory_controller][INFO] Client 0 registered with MemoryController.
+[2026-02-07 01:11:21][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 01:11:21][finforge::registry][INFO] Subscribed to symbol GOOG. Current ref count: 1
+[2026-02-07 01:11:21][finforge_app][INFO] Client 0 listening for messages...
+[2026-02-07 01:11:21][finforge::registry][INFO] First subscription for GOOG. Sending subscribe command to Ingestor.
+[2026-02-07 01:11:21][finforge::registry][INFO] Subscribed to symbol MSFT. Current ref count: 1
+[2026-02-07 01:11:21][finforge::ingestor][INFO] Received subscribe command for GOOG (while connecting).
+[2026-02-07 01:11:21][finforge::registry][INFO] First subscription for MSFT. Sending subscribe command to Ingestor.
+[2026-02-07 01:11:21][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 01:11:21][finforge::ingestor][INFO] Received subscribe command for MSFT (while connecting).
+[2026-02-07 01:11:21][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 01:11:22][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com
+[2026-02-07 01:11:22][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com
+[2026-02-07 01:11:27][finforge::ingestor][ERROR] No messages received from wss://streamer.finance.yahoo.com for 5000ms. Silent failure detected. Reconnecting...
+[2026-02-07 01:11:28][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 01:11:29][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com
+[2026-02-07 01:11:29][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com
+[2026-02-07 01:11:31][finforge::registry][INFO] Unsubscribed from symbol GOOG. Current ref count: 0
+[2026-02-07 01:11:31][finforge::registry][INFO] Ref count for GOOG is 0. Starting linger timer for 5s
+[2026-02-07 01:11:31][finforge_app][INFO] FinForge application stopped.
+[2026-02-07 01:15:03][finforge::logging][INFO] Logging initialized. Log file: logs\finforge_2026-02-07.log
+[2026-02-07 01:15:03][finforge_app][INFO] FinForge application starting...
+[2026-02-07 01:15:03][finforge::memory_controller][INFO] MemoryController started.
+[2026-02-07 01:15:03][finforge::dispatcher][INFO] Dispatcher run_loop started.
+[2026-02-07 01:15:03][finforge::ingestor][INFO] UpstreamIngestor started.
+[2026-02-07 01:15:03][finforge::dispatcher][INFO] Client 0 registered. Total clients: 1
+[2026-02-07 01:15:03][finforge::memory_controller][INFO] Client 0 registered with MemoryController.
+[2026-02-07 01:15:03][finforge_app][INFO] Registered client with ID: 0
+[2026-02-07 01:15:03][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 01:15:03][finforge_app][INFO] Client 0 listening for messages...
+[2026-02-07 01:15:03][finforge::registry][INFO] Subscribed to symbol GOOG. Current ref count: 1
+[2026-02-07 01:15:03][finforge::registry][INFO] First subscription for GOOG. Sending subscribe command to Ingestor.
+[2026-02-07 01:15:03][finforge::registry][INFO] Subscribed to symbol MSFT. Current ref count: 1
+[2026-02-07 01:15:03][finforge::ingestor][INFO] Received subscribe command for GOOG (while connecting).
+[2026-02-07 01:15:03][finforge::registry][INFO] First subscription for MSFT. Sending subscribe command to Ingestor.
+[2026-02-07 01:15:03][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 01:15:03][finforge::ingestor][INFO] Received subscribe command for MSFT (while connecting).
+[2026-02-07 01:15:03][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 01:15:04][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com
+[2026-02-07 01:15:04][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com
+[2026-02-07 01:15:09][finforge::ingestor][ERROR] No messages received from wss://streamer.finance.yahoo.com for 5000ms. Silent failure detected. Reconnecting...
+[2026-02-07 01:15:10][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 01:15:10][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com
+[2026-02-07 01:15:10][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com
+[2026-02-07 01:15:13][finforge::registry][INFO] Unsubscribed from symbol GOOG. Current ref count: 0
+[2026-02-07 01:15:13][finforge::registry][INFO] Ref count for GOOG is 0. Starting linger timer for 5s
+[2026-02-07 01:15:13][finforge_app][INFO] FinForge application stopped.
+[2026-02-07 10:12:17][finforge::logging][INFO] Logging initialized. Log file: logs\finforge_2026-02-07.log
+[2026-02-07 10:12:17][finforge_app][INFO] FinForge application starting...
+[2026-02-07 10:12:17][finforge::dispatcher][INFO] Client 0 registered. Total clients: 1
+[2026-02-07 10:12:17][finforge::dispatcher][INFO] Dispatcher run_loop started.
+[2026-02-07 10:12:17][finforge::ingestor][INFO] UpstreamIngestor started.
+[2026-02-07 10:12:17][finforge::memory_controller][INFO] MemoryController started.
+[2026-02-07 10:12:17][finforge_app][INFO] Registered client with ID: 0
+[2026-02-07 10:12:17][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 10:12:17][finforge::memory_controller][INFO] Client 0 registered with MemoryController.
+[2026-02-07 10:12:17][finforge_app][INFO] Client 0 listening for messages...
+[2026-02-07 10:12:17][finforge::registry][INFO] Subscribed to symbol GOOG. Current ref count: 1
+[2026-02-07 10:12:17][finforge::registry][INFO] First subscription for GOOG. Sending subscribe command to Ingestor.
+[2026-02-07 10:12:17][finforge::registry][INFO] Subscribed to symbol MSFT. Current ref count: 1
+[2026-02-07 10:12:17][finforge::ingestor][INFO] Received subscribe command for GOOG (while connecting).
+[2026-02-07 10:12:17][finforge::registry][INFO] First subscription for MSFT. Sending subscribe command to Ingestor.
+[2026-02-07 10:12:17][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 10:12:17][finforge::ingestor][INFO] Received subscribe command for MSFT (while connecting).
+[2026-02-07 10:12:17][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 10:12:17][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com
+[2026-02-07 10:12:17][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com
+[2026-02-07 10:12:22][finforge::ingestor][ERROR] No messages received from wss://streamer.finance.yahoo.com for 5000ms. Silent failure detected. Reconnecting...
+[2026-02-07 10:12:23][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-07 10:12:24][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com
+[2026-02-07 10:12:24][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com
+[2026-02-07 10:12:27][finforge::registry][INFO] Unsubscribed from symbol GOOG. Current ref count: 0
+[2026-02-07 10:12:27][finforge::registry][INFO] Ref count for GOOG is 0. Starting linger timer for 5s
+[2026-02-07 10:12:27][finforge_app][INFO] FinForge application stopped.
+[2026-02-07 10:21:28][finforge::logging][INFO] Logging initialized. Log file: logs\finforge_2026-02-07.log
+[2026-02-07 10:21:28][finforge_app][INFO] FinForge application starting...
+[2026-02-07 10:21:28][finforge::dispatcher][INFO] Client 0 registered. Total clients: 1
+[2026-02-07 10:21:28][finforge::dispatcher][INFO] Dispatcher run_loop started.
+[2026-02-07 10:21:28][finforge::memory_controller][INFO] MemoryController started.
+[2026-02-07 10:21:28][finforge::ingestor][INFO] UpstreamIngestor started.
+[2026-02-07 10:21:28][finforge_app][INFO] Registered client with ID: 0
+[2026-02-07 10:21:28][finforge::memory_controller][INFO] Client 0 registered with MemoryController.
+[2026-02-07 10:21:28][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 10:21:28][finforge_app][INFO] Client 0 listening for messages...
+[2026-02-07 10:21:28][finforge::registry][INFO] Subscribed to symbol GOOG. Current ref count: 1
+[2026-02-07 10:21:28][finforge::registry][INFO] First subscription for GOOG. Sending subscribe command to Ingestor.
+[2026-02-07 10:21:28][finforge::registry][INFO] Subscribed to symbol MSFT. Current ref count: 1
+[2026-02-07 10:21:28][finforge::ingestor][INFO] Received subscribe command for GOOG (while connecting).
+[2026-02-07 10:21:28][finforge::registry][INFO] First subscription for MSFT. Sending subscribe command to Ingestor.
+[2026-02-07 10:21:28][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 10:21:28][finforge::ingestor][INFO] Received subscribe command for MSFT (while connecting).
+[2026-02-07 10:21:28][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 10:21:29][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 10:21:29][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 10:21:34][finforge::ingestor][ERROR] No messages received from wss://streamer.finance.yahoo.com/?version=2 for 5000ms. Silent failure detected. Reconnecting...
+[2026-02-07 10:21:35][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 10:21:35][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 10:21:35][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 10:21:38][finforge::registry][INFO] Unsubscribed from symbol GOOG. Current ref count: 0
+[2026-02-07 10:21:38][finforge::registry][INFO] Ref count for GOOG is 0. Starting linger timer for 5s
+[2026-02-07 10:21:38][finforge_app][INFO] FinForge application stopped.
+[2026-02-07 11:32:23][finforge::logging][INFO] Logging initialized. Log file: logs\finforge_2026-02-07.log
+[2026-02-07 11:32:23][finforge_app][INFO] FinForge application starting...
+[2026-02-07 11:32:23][finforge::memory_controller][INFO] MemoryController started.
+[2026-02-07 11:32:23][finforge::dispatcher][INFO] Dispatcher run_loop started.
+[2026-02-07 11:32:23][finforge::ingestor][INFO] UpstreamIngestor started.
+[2026-02-07 11:32:23][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:24][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:24][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:29][finforge::ingestor][ERROR] No messages received from wss://streamer.finance.yahoo.com/?version=2 for 5000ms. Silent failure detected. Reconnecting...
+[2026-02-07 11:32:30][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:30][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:30][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:35][finforge::ingestor][ERROR] No messages received from wss://streamer.finance.yahoo.com/?version=2 for 5000ms. Silent failure detected. Reconnecting...
+[2026-02-07 11:32:36][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:37][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:37][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:42][finforge::ingestor][ERROR] No messages received from wss://streamer.finance.yahoo.com/?version=2 for 5000ms. Silent failure detected. Reconnecting...
+[2026-02-07 11:32:43][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:43][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:43][finforge::ingestor][INFO] Ingestor is now in Primary state, connected to wss://streamer.finance.yahoo.com/?version=2
+[2026-02-07 11:32:45][finforge_app][INFO] Ctrl-C received, FinForge application shutting down...

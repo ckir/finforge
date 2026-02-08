@@ -1,0 +1,6 @@
+[2026-02-06 18:27:07][finforge::logging][INFO] Logging initialized. Log file: logs\finforge_2026-02-06.log
+[2026-02-06 18:27:07][finforge_app][INFO] FinForge application starting...
+[2026-02-06 18:27:07][finforge::ingestor][INFO] UpstreamIngestor started.
+[2026-02-06 18:27:07][finforge::ingestor][INFO] Attempting to connect to wss://streamer.finance.yahoo.com/
+[2026-02-06 18:27:09][finforge::ingestor][INFO] Successfully connected to wss://streamer.finance.yahoo.com
+[2026-02-06 18:27:09][finforge_app][INFO] FinForge application stopped.
